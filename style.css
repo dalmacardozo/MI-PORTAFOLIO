@@ -1,0 +1,133 @@
+.body {
+    margin: 0;
+    min-height: 100vh;
+    
+
+
+}
+
+/* Inicio */
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    text-align: end;
+    flex-wrap: wrap;
+}
+
+.navegacion {
+    padding: 20px;
+}
+
+.secciones {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.seccion-saludo {
+    background-color: #f7e5d9;
+}
+
+.seccion-conocimientos {
+    background-color: #f4d5c0
+}
+
+.seccion-proyectos {
+    background-color: #e3bba8;
+}
+
+.seccion-contacto {
+    background-color: #e3b192;
+}
+
+header {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+img {
+    display: flex;
+    width: 450px;
+    height: 450px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.descripcion {
+    font-size: 20px;
+}
+
+
+.loquehago {
+    background-color: #e3bba8;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 20px;
+}
+
+/*Desarrollo*/
+
+.icon-html{
+    width:100px;
+    height: 100px;
+    background-color: #f7e5d9;
+    margin: 50px;
+}
+
+.icon-css{
+    width:100px;
+    height: 100px;
+    background-color: #f4d5c0;
+    margin: 50px;
+}
+
+.icon-teacher{
+    width:100px;
+    height: 100px;
+    background-color: #e3bba8;
+    margin: 50px;
+}
+
+.icon-rcp {
+    width:100px;
+    height: 100px;
+    background-color: #e3b192;
+    margin: 50px;
+}
+
+.sec-firts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+}
+
+.container-sec {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+margin: 30px;
+    
+}
+
+.iconos {
+    border: 2px solid #e3bba8;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px;
+    
+}
