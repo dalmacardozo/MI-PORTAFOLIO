@@ -1,7 +1,7 @@
 .body {
     margin: 0;
     min-height: 100vh;
-    
+
 
 
 }
@@ -79,29 +79,29 @@ h1 {
 
 /*Desarrollo*/
 
-.icon-html{
-    width:100px;
+.icon-html {
+    width: 100px;
     height: 100px;
     background-color: white;
     margin: 50px;
 }
 
-.icon-css{
-    width:100px;
+.icon-css {
+    width: 100px;
     height: 100px;
     background-color: white;
     margin: 50px;
 }
 
-.icon-teacher{
-    width:100px;
+.icon-teacher {
+    width: 100px;
     height: 100px;
     background-color: white;
     margin: 50px;
 }
 
 .icon-rcp {
-    width:100px;
+    width: 100px;
     height: 100px;
     background-color: white;
     margin: 50px;
@@ -113,25 +113,26 @@ h1 {
     align-items: center;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
-    
-    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+
+
 }
 
 .container-sec {
     display: flex;
     align-content: center;
     justify-content: center;
-margin: 30px;
-    
+    margin: 30px;
+
 }
 
 .iconos {
-    background-color:#92ddea ;
+    background-color: #92ddea;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     padding: 50px;
-    
+
 }
 
 .descripcion-conocimientos {
@@ -143,7 +144,9 @@ margin: 30px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right bottom, #ffa5d8, #f8bfed, #f3d6f9, #f5ecff, #ffffff);;
+    background-image: linear-gradient(to right bottom, #ffa5d8, #f8bfed, #f3d6f9, #f5ecff, #ffffff);
+    ;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
 
 }
 
@@ -151,20 +154,63 @@ margin: 30px;
     width: 140px;
     height: 140px;
     margin-top: 30px;
-    
+
 }
 
 .comentario {
     padding: 20px 150px;
-    color: black ;
+    color: black;
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     text-align: center;
 }
 
+.mis-proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.order {
+    display: flex;
+    flex-direction: row;
+}
+
+.proyecto-individual {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    margin: 40px;
+    font-size: 15px;
 
 
 
-    
+}
 
+.backend {
+    background-color: #92ddea;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
+}
+
+.org-semanal {
+    background-color: #ffa5d8;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.mundo {
+    background-color: #be9ddf;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.portfolio {
+    background-color: #9579d1;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
