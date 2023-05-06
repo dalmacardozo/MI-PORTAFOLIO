@@ -1,216 +1,92 @@
-.body {
+body {
     margin: 0;
     min-height: 100vh;
-
-
-
+    font-family: 'Instrument Serif', serif;
+    ;
 }
 
-/* Inicio */
+/*INICIO*/
+/*NAVEGACIÓN*/
+
+ul {
+    display: flex;
+    justify-content: end;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+    margin: 8px;
+}
+
+.hola {
+    background-color: #219bc3;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.conocimientos {
+    background-color: #b2d3e1;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px
+}
+
+.proyectos {
+    background-color: #f2cfda;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px
+}
+
+.contacto {
+    background-color: #c66aab;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px
+}
+
+/*SECCIÓN DE PRESENTACIÓN*/
 
 .portada {
     display: flex;
-    flex-direction: column;
-    font-family: 'Quicksand', sans-serif;
-    text-align: end;
+    justify-content: space-evenly;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 30px;
+    align-items: center;
     flex-wrap: wrap;
+
 }
 
-.navegacion {
-    padding: 20px;
-}
+.mi-nombre {
+    color: #c66aab;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
 
-.secciones {
-    margin: 10px;
-    padding: 5px;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-.seccion-saludo {
-    background-color: #7eb8da;
-}
-
-.seccion-conocimientos {
-    background-color: #92ddea;
-}
-
-.seccion-proyectos {
-    background-color: #ffa5d8;
-}
-
-.seccion-contacto {
-    background-color: #be9ddf;
-}
-
-header {
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    text-align: center;
-    justify-content: space-around;
-    padding: 50px;
-}
-
-.img-perfil {
-    display: flex;
-    width: 450px;
-    height: 450px;
-}
-
-h2 {
-    font-size: 50px;
-}
-
-h1 {
-    font-size: 70px;
 }
 
 .descripcion {
-    font-size: 20px;
+    font-size: 25px;
 }
 
-
-.loquehago {
-    background-color: #9579d1;
-    border-radius: 5px;
+.lo-que-hago {
+    font-size: 25px;
+    background-color: #f2cfda;
+    border: 5px solid white;
+    border-radius: 30px;
     padding: 10px;
-    font-weight: 20px;
-}
-
-/*Desarrollo*/
-
-.icon-html {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    margin: 50px;
-}
-
-.icon-css {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    margin: 50px;
-}
-
-.icon-teacher {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    margin: 50px;
-}
-
-.icon-rcp {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    margin: 50px;
-}
-
-.sec-conocimientos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Quicksand', sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
-
-
-}
-
-.container-sec {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: 30px;
-
-}
-
-.iconos {
-    background-color: #92ddea;
-    border: 2px solid white;
-    border-radius: 10px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    padding: 50px;
-
-}
-
-.descripcion-conocimientos {
-    margin: 10px 80px;
-}
-
-.palabras-descriptivas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to right bottom, #ffa5d8, #f8bfed, #f3d6f9, #f5ecff, #ffffff);
-    ;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
-
-}
-
-.comentario-icon {
-    width: 140px;
-    height: 140px;
-    margin-top: 30px;
-
-}
-
-.comentario {
-    padding: 20px 150px;
-    color: black;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
     text-align: center;
 }
 
-.mis-proyectos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
-}
+@media (max-width:950px) {img {width: 300px;}}
 
-.order {
-    display: flex;
-    flex-direction: row;
-}
+@media (max-width:740px) {img {width: 250px;}}
 
-.proyecto-individual {
-    border: 2px solid white;
-    border-radius: 5px;
-    width: 200px;
-    height: 200px;
-    padding: 40px;
-    margin: 40px;
-    font-size: 15px;
+@media (max-width:670px) {ul {visibility: hidden;}}
 
 
 
-}
 
-.backend {
-    background-color: #92ddea;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-
-}
-
-.org-semanal {
-    background-color: #ffa5d8;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-}
-
-.mundo {
-    background-color: #be9ddf;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-}
-
-.portfolio {
-    background-color: #9579d1;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-}
+/*SECCIÓN DE HABILIDADES*/
