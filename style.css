@@ -80,13 +80,111 @@ li {
     text-align: center;
 }
 
-@media (max-width:950px) {img {width: 300px;}}
+@media (max-width:950px) {
+    .foto-portada {
+        width: 380px;
+    }
+}
 
-@media (max-width:740px) {img {width: 250px;}}
+@media (max-width:740px) {
+    .foto-portada {
+        width: 350px;
+    }
+}
 
-@media (max-width:670px) {ul {visibility: hidden;}}
+@media (max-width:370px) {
+    .foto-portada {
+        width: 280px;
+    }
+}
+
+@media (max-width:670px) {
+    ul {
+        visibility: hidden;
+    }
+}
+
+@media (max-width:440px) {
+    .portada {
+        text-align: center;
+    }
+}
 
 
 
 
 /*SECCIÓN DE HABILIDADES*/
+
+.titulo-conocimientos {
+    text-align: center;
+}
+
+.subtitulo-conocimiento {
+    text-align: center;
+}
+
+
+.contenedor-conocimiento {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.iconos-conocimientos {
+    background-color: white;
+    border: 1px solid #f2cfda;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+
+.fa-chalkboard-user {
+    color: #219bc3;
+    font-size: 90px;
+    padding: 18px;
+    margin: 25px;
+
+}
+
+.fa-notes-medical {
+    color: #65b2c6;
+    font-size: 90px;
+    padding: 18px;
+    margin: 25px;
+}
+
+.fa-person {
+    color: #f2cfda;
+    font-size: 90px;
+    padding: 18px;
+    margin: 25px;
+}
+
+.fa-html5 {
+    color: #c66aab;
+    font-size: 90px;
+    padding: 18px;
+    margin: 25px;
+}
+
+.fa-css3-alt {
+    color: #68417f;
+    font-size: 90px;
+    padding: 18px;
+    margin: 25px;
+}
+
+.fa-git {
+    color: #b2d3e1;
+    font-size: 90px;
+    padding: 18px;
+    margin: 25px;
+}
