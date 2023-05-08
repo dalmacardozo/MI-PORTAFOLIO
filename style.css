@@ -56,7 +56,6 @@ li {
     font-size: 30px;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .mi-nombre {
@@ -83,21 +82,29 @@ li {
 
 }
 
-@media (max-width:950px) {
+
+@media (max-width:700px) {
     .foto-portada {
-        width: 380px;
+        width: 600px; height: 400px;
     }
 }
 
-@media (max-width:740px) {
+@media (max-width:605px) {
     .foto-portada {
-        width: 350px;
+        width: 500px; height: 400px;
     }
 }
 
-@media (max-width:370px) {
+
+@media (max-width:503px) {
     .foto-portada {
-        width: 280px;
+        width: 400px; height: 300px;
+    }
+}
+
+@media (max-width:400px) {
+    .foto-portada {
+        width: 250px; height: 180px;
     }
 }
 
@@ -239,3 +246,5 @@ li {
         padding: 30px 10px;
     }
 }
+
+
