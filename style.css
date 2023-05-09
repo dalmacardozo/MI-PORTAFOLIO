@@ -127,6 +127,9 @@ li {
 
 .titulo-conocimientos {
     text-align: center;
+    font-size: 45px;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 .subtitulo-conocimiento {
@@ -199,6 +202,7 @@ li {
     margin: 25px;
 }
 
+
 /*SECCIÓN CITA*/
 
 .cita {
@@ -246,5 +250,42 @@ li {
         padding: 30px 10px;
     }
 }
+
+/*SECCIÓN PROYECTOS*/
+
+.img-proyectos {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.titulo-proyectos {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.subtitulo-proyectos {
+    text-align: center;
+}
+
+
+.contenedor-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+
 
 
