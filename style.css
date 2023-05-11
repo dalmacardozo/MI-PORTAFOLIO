@@ -85,26 +85,30 @@ li {
 
 @media (max-width:700px) {
     .foto-portada {
-        width: 600px; height: 400px;
+        width: 600px;
+        height: 400px;
     }
 }
 
 @media (max-width:605px) {
     .foto-portada {
-        width: 500px; height: 400px;
+        width: 500px;
+        height: 400px;
     }
 }
 
 
 @media (max-width:503px) {
     .foto-portada {
-        width: 400px; height: 300px;
+        width: 400px;
+        height: 300px;
     }
 }
 
 @media (max-width:400px) {
     .foto-portada {
-        width: 250px; height: 180px;
+        width: 250px;
+        height: 180px;
     }
 }
 
@@ -245,7 +249,7 @@ li {
     }
 }
 
-@media (max-width:280) {
+@media (max-width:280px) {
     .texto-de-cita {
         padding: 30px 10px;
     }
@@ -285,7 +289,60 @@ li {
 
 }
 
+/*SECCIÓN CONTACTO*/
+
+.contenedor-contacto {
+    background-color: #f6f7fb;
+    display: flex;
+    justify-content: center;
+
+}
+
+.seccion-contacto {
+    border: 2px solid#219bc3;
+    width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
 
 
+}
 
 
+.icon-redes {
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: #68417f;
+}
+
+.titulo-contacto {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.redes-de-contacto {
+    padding: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulario {
+    padding: 50px;
+    text-align: left;
+}
+
+@media (max-width: 1030px) {
+    .seccion-contacto {
+        width: 600px;
+        flex-wrap: wrap;
+    }
+}
