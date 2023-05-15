@@ -24,6 +24,7 @@ li {
     border: 1px solid white;
     border-radius: 5px;
     font-size: 20px;
+    
 }
 
 .conocimientos {
@@ -49,29 +50,32 @@ li {
 
 .hola:hover {
     background-color: white;
-    border: 2px solid #68417f;
+    border: 2px solid #219bc3;
     border-radius: 10px;
 }
 
 .conocimientos:hover {
     background-color: white;
-    border: 2px solid #68417f;
+    border: 2px solid #b2d3e1;
     border-radius: 10px;
 }
 
 .proyectos:hover {
     background-color: white;
-    border: 2px solid #68417f;
+    border: 2px solid  #f2cfda;
     border-radius: 10px;
 }
 
 .contacto:hover {
     background-color: white;
-    border: 2px solid #68417f;
+    border: 2px solid #c66aab;
     border-radius: 10px;
 }
 
-
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+}
 
 /*SECCIÓN DE PRESENTACIÓN*/
 
@@ -98,15 +102,25 @@ li {
 
 .un-poco-de-mi {
     font-size: 25px;
-    background-color: #f2cfda;
-    border: 5px solid white;
-    border-radius: 30px;
-    padding: 10px;
+    background-color: #b2d3e1;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px;
     text-align: center;
     font-family: 'Instrument Serif', serif;
     font-family: 'Shadows Into Light', cursive;
 
 }
+
+.un-poco-de-mi:hover {
+    background-color: white;
+    border: 2px solid #b2d3e1;
+    
+}
+
+    
+
+
 
 
 
@@ -188,6 +202,11 @@ li {
     font-size: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
+
+}
+
+.iconos-conocimientos:hover {
+    border: 1px solid #b2d3e1;
 
 }
 
@@ -314,6 +333,11 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+
+}
+
+.img-proyectos:hover {
+    border: 1px solid #f2cfda;
 
 }
 
