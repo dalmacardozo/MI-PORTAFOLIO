@@ -13,6 +13,7 @@ body {
     justify-content: end;
 }
 
+
 li {
     list-style: none;
     padding: 8px;
@@ -52,25 +53,34 @@ li {
     background-color: white;
     border: 2px solid #219bc3;
     border-radius: 10px;
+    transition-property: background-color, border, border-radius;
+    transition-duration: 0.2s;
 }
 
 .conocimientos:hover {
     background-color: white;
     border: 2px solid #b2d3e1;
     border-radius: 10px;
+    transition-property: background-color, border, border-radius;
+    transition-duration: 0.2s;
 }
 
 .proyectos:hover {
     background-color: white;
     border: 2px solid #f2cfda;
     border-radius: 10px;
+    transition-property: background-color, border, border-radius;
+    transition-duration: 0.2s;
 }
 
 .contacto:hover {
     background-color: white;
     border: 2px solid #c66aab;
     border-radius: 10px;
+    transition-property: background-color, border, border-radius;
+    transition-duration: 0.2s;
 }
+
 
 a:link,
 a:visited,
@@ -153,7 +163,7 @@ a:active {
 }
 
 @media (max-width:670px) {
-    ul {
+    .lista-de-navegacion {
         visibility: hidden;
     }
 }
@@ -354,11 +364,13 @@ a:active {
     background-color: #f6f7fb;
     display: flex;
     justify-content: center;
+    padding: 60px;
 
 }
 
 .seccion-contacto {
-    border: 2px solid#219bc3;
+    border: 1px solid#219bc3;
+    border-radius: 15px;
     width: 1000px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     background-color: white;
@@ -386,36 +398,46 @@ a:active {
 }
 
 
-
 .titulo-contacto {
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Instrument Serif', serif;
     font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+}
+
+.parrafo-contacto {
+    padding: 20px;
+    margin: 0px;
 }
 
 .redes-de-contacto {
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    flex-grow: 5;
+
 
 }
 
 .lista-contacto {
     text-align: left;
+    margin: 0px;
 }
 
-.formulario {
-    padding: 50px;
-    flex-grow: 5;
-}
 
 @media (max-width: 1030px) {
     .seccion-contacto {
-        width: 600px;
+        width: 700px;
         flex-wrap: wrap;
+    }
+
+    .lista-contacto {
+        text-align: center;
+    }
+
+    .parrafo-contacto {
+        width: 300px;
     }
 }
 
@@ -440,6 +462,8 @@ a:active {
     font-family: 'Nunito Sans', sans-serif;
     padding: 10px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -471,9 +495,107 @@ form {
     background-color: #f6f7fb;
 }
 
-#mensaje  {
+#mensaje {
     border: 2px solid white;
     border-radius: 25px;
     padding: 10px;
     background-color: #f6f7fb;
 }
+
+#enviar {
+    background-color: #f2cfda;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+
+@media (max-width: 720px) {
+    .seccion-contacto {
+        width: 500px;
+    }
+}
+
+@media (max-width: 530px) {
+    .seccion-contacto {
+        width: 400px;
+    }
+}
+
+@media (max-width: 415px) {
+    .seccion-contacto {
+        width: 300px;
+        border: none;
+        box-shadow: none;
+    }
+
+    .contenedor-contacto {
+        background-color: white;
+    }
+
+    .redes-de-contacto {
+        width: 350px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .lista-contacto {
+        width: 250px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 315px) {
+    .lista-contacto {
+        width: 150px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 280px) {
+    .parrafo-contacto {
+        width: 180px;
+
+    }
+
+    .titulo-contacto {
+        font-size: 30px;
+    }
+
+}
+
+#enviar:hover {
+    background-color: #c66aab;
+    color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+/*FOOTER*/
+
+.lista-footer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    font-size: 15px;
+}
+ .ultima-frase {
+    text-align: center;
+    font-size: 15px;
+ }
+
+ .contenedor-footer {
+    height: 300px;
+    background-color: #92ddea;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 50px;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+
