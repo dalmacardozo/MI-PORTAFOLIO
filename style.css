@@ -24,7 +24,7 @@ li {
     border: 1px solid white;
     border-radius: 5px;
     font-size: 20px;
-    
+
 }
 
 .conocimientos {
@@ -62,7 +62,7 @@ li {
 
 .proyectos:hover {
     background-color: white;
-    border: 2px solid  #f2cfda;
+    border: 2px solid #f2cfda;
     border-radius: 10px;
 }
 
@@ -72,8 +72,10 @@ li {
     border-radius: 10px;
 }
 
-a:link, a:visited, a:active {
-    text-decoration:none;
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
     color: black;
 }
 
@@ -115,12 +117,8 @@ a:link, a:visited, a:active {
 .un-poco-de-mi:hover {
     background-color: white;
     border: 2px solid #b2d3e1;
-    
+
 }
-
-    
-
-
 
 
 
@@ -207,6 +205,10 @@ a:link, a:visited, a:active {
 
 .iconos-conocimientos:hover {
     border: 1px solid #b2d3e1;
+    box-shadow: none;
+    transition-property: border, box-shadow;
+    transition-duration: 0.3s;
+
 
 }
 
@@ -316,6 +318,8 @@ a:link, a:visited, a:active {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+
+
 .titulo-proyectos {
     text-align: center;
     font-size: 45px;
@@ -338,10 +342,13 @@ a:link, a:visited, a:active {
 
 .img-proyectos:hover {
     border: 1px solid #f2cfda;
+    box-shadow: none;
+    transition-property: border, box-shadow;
+    transition-duration: 0.3s;
 
 }
 
-/*SECCIÓN CONTACTO*/
+/*SECCIÓN CONTACTO-DATOS DE CONTACTO*/
 
 .contenedor-contacto {
     background-color: #f6f7fb;
@@ -357,27 +364,27 @@ a:link, a:visited, a:active {
     background-color: white;
     font-size: 20px;
     display: flex;
-    justify-content: center;
-
-
+    justify-content: center
 }
 
 
 .icon-redes {
-    font-size: 30px;
-    border: 2px solid white;
-    border-radius: 10px;
+    font-size: 25px;
     padding: 5px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    color:#c66aab;
-    margin-bottom: 10px;
-    
+    color: #c66aab;
+
+
+
 }
 
 .icon-redes:hover {
-    border-radius: 10px;
-    color: #f2cfda;
+    background-color: #c66aab;
+    border-radius: 20px;
+    color: white;
+    transition-property: background-color, color;
+    transition-duration: 0.2s;
 }
+
 
 
 .titulo-contacto {
@@ -388,16 +395,21 @@ a:link, a:visited, a:active {
 }
 
 .redes-de-contacto {
-    padding: 50px;
-    text-align: left;
+    padding: 30px;
+    text-align: center;
     display: flex;
     flex-direction: column;
+    flex-grow: 5;
 
+}
+
+.lista-contacto {
+    text-align: left;
 }
 
 .formulario {
     padding: 50px;
-    text-align: left;
+    flex-grow: 5;
 }
 
 @media (max-width: 1030px) {
@@ -413,4 +425,55 @@ a:link, a:visited, a:active {
     font-size: 15px;
     padding-left: 10px;
     color: black;
+
+}
+
+.datos-de-contacto:hover {
+    color: #f2cfda;
+
+}
+
+/*SECCIÓN CONTACTO-FORMULARIO*/
+
+.formulario {
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+form {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#nombre {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #f6f7fb;
+
+}
+
+#apellido {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #f6f7fb;
+}
+
+#email {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #f6f7fb;
+}
+
+#mensaje  {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #f6f7fb;
 }

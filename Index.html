@@ -143,37 +143,40 @@
                 <h1 class="titulo-contacto">CONTACTAME</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aperiam iure impedit fugit repudiandae
                     nesciunt error fuga cumque ex facere!</p>
-                <a href="https://www.google.com/intl/es-419/gmail/about/"><i
-                        class="fa-regular fa-envelope icon-redes"><span
-                            class="datos-de-contacto">dalmam.cardozo@gmail.com</span></i></a>
-                <a href="https://github.com/dalmacardozo?tab=repositories"><i
-                        class="fa-brands fa-github icon-redes"><span
-                            class="datos-de-contacto">dalmacardozo</span></i></a>
-                <a href="#discord"><i class="fa-brands fa-discord icon-redes"><span
-                            class="datos-de-contacto">Dalma#3210</span></i></a>
-                <a href="https://www.linkedin.com/in/dalma-cardozo-54bb4a1a1/"><i
-                        class="fa-brands fa-linkedin-in icon-redes"><span
-                            class="datos-de-contacto">DalmaCardozo</span></i></a>
+                <ul>
+                    <li class="lista-contacto"><a href="https://www.google.com/intl/es-419/gmail/about/"><i
+                                class="fa-regular fa-envelope icon-redes"></i>
+                            <span class="datos-de-contacto">dalmam.cardozo@gmail.com</span></a></li>
+                    <li class="lista-contacto"><a href="https://github.com/dalmacardozo?tab=repositories"><i
+                                class="fa-brands fa-github icon-redes"></i><span
+                                class="datos-de-contacto">dalmacardozo</span></a></li>
+                    <li class="lista-contacto"><a href="#discord"><i class="fa-brands fa-discord icon-redes"></i><span
+                                class="datos-de-contacto">Dalma#3210</span></a></li>
+                    <li class="lista-contacto"><a href="https://www.linkedin.com/in/dalma-cardozo-54bb4a1a1/"><i
+                                class="fa-brands fa-linkedin-in icon-redes"></i><span
+                                class="datos-de-contacto">DalmaCardozo</span></a></li>
+                </ul>
             </article>
             <article class="formulario">
                 <h1 class="titulo-contacto">ESCRIBEME</h1>
                 <form id="nombre-apellido-usuario">
-                    <label for="nombre">Nombre:</label>
+                    <label for="nombre">Nombre*</label>
                     <input type="text" id="nombre" placeholder="Ej: Aaron">
-                    <label for="apellido">Apellido:</label>
+                    <label for="apellido">Apellido*</label>
                     <input type="text" id="apellido" placeholder="Ej: Morales">
                 </form>
                 <form id="contacto-correo">
-                    <label for="email">E-mail:</label>
+                    <label for="email">E-mail*</label>
                     <input type="email" id="email" placeholder="Ej: moralesaaron@gmail.com">
                 </form>
                 <form id="descripcion-mensaje">
-                    <label for="mensaje">Mensaje</label>
-                    <input type="text" id="mensaje" placeholder="Escriba aquí su mensaje">
+                   <label for="mensaje">Mensaje*</label>
+                    <textarea name="descripcion-mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba aquí su mensaje"></textarea>
                 </form>
                 <form id="finalizar-enviar">
                     <label for="enviar"></label>
                     <input type="submit" id="enviar">
+                    
                 </form>
             </article>
         </section>
