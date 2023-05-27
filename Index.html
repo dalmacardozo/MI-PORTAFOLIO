@@ -25,7 +25,8 @@
     <!--INICIO-->
     <!--NAVEGACIÓN-->
     <header class="navegación">
-        <nav>
+        <a name="hola"></a>
+        <nav class="posicion-destacada">
             <ul class="lista-de-navegacion">
                 <li class="contenido-de-lista"><a href="#hola">¡HOLA!</a></li>
                 <li class="contenido-de-lista"><a href="#conocimientos">CONOCIMIENTOS</a></li>
@@ -37,6 +38,7 @@
 
     <!--SECCIÓN DE PRESENTACIÓN-->
     <section class="portada">
+        
         <div class="contenedor-descriptivo">
             <h3>¡Hola! Soy</h3>
             <h1 class="mi-nombre">Dalma Cardozo</h1>
@@ -154,7 +156,7 @@
                 <p class="parrafo-contacto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aperiam iure
                     impedit fugit repudiandae
                     nesciunt error fuga cumque ex facere!</p>
-                <ul>
+                <ul class="contenedor-lista-contacto">
                     <li class="lista-contacto"><a href="https://www.google.com/intl/es-419/gmail/about/"><i
                                 class="fa-regular fa-envelope icon-redes"></i>
                             <span class="datos-de-contacto">dalmam.cardozo@gmail.com</span></a></li>
@@ -170,25 +172,25 @@
             </article>
             <article class="formulario">
                 <h1 class="titulo-contacto">ESCRIBEME</h1>
-                <form id="nombre-apellido-usuario">
+                <form id="nombre-usuario">
                     <label for="nombre">Nombre*</label>
                     <input type="text" id="nombre" placeholder="Ej: Aaron">
-                    <label for="apellido">Apellido*</label>
+                </form>
+                <form id="apellido-usuario"">
+                    <label for=" apellido">Apellido*</label>
                     <input type="text" id="apellido" placeholder="Ej: Morales">
                 </form>
                 <form id="contacto-correo">
                     <label for="email">E-mail*</label>
-                    <input type="email" id="email" placeholder="Ej: moralesaaron@gmail.com">
+                    <input type="email" id="email" placeholder="Ej: moralesaaron@gmail.com"></form>
                 </form>
                 <form id="descripcion-mensaje">
-                    <label for="mensaje">Mensaje*</label>
-                    <textarea name="descripcion-mensaje" id="mensaje" cols="30" rows="10"
+                    <label for="mensaje">Mensaje*</label></form>
+                    <textarea name="descripcion-mensaje" id="mensaje"
                         placeholder="Escriba aquí su mensaje"></textarea>
-                </form>
                 <form id="finalizar-enviar">
                     <label for="enviar"></label>
                     <input type="submit" id="enviar">
-
                 </form>
             </article>
         </section>
