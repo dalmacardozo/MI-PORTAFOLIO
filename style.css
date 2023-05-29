@@ -10,11 +10,14 @@ body {
 /*INICIO*/
 /*NAVEGACIÓN*/
 
-nav {
+header {
     position: sticky;
     top: 0;
+    background-image: linear-gradient(to left, #ffffff, #faf5ff, #f8eaff, #fadeff, #ffd1fe);
 
 }
+
+
 
 .lista-de-navegacion {
     display: flex;
@@ -76,6 +79,7 @@ li {
     border: 3px solid #e1feff;
     border-radius: 20px;
     font-size: 15px;
+    background-color: white;
 
 }
 
@@ -550,7 +554,7 @@ textarea {
     border-radius: 25px;
     padding: 10px;
     background-color: #f6f7fb;
-    width: 350px;
+    width: 350;
     height: 120px;
 }
 
@@ -574,12 +578,12 @@ input[type="submit"]:hover {
     textarea {
         width: 250px;
         height: 100px;
-    }
-}
+    }}
 
-@media (max-width: 500px) {
+
+@media (max-width: 355px) {
     textarea {
-        width: 150px;
+        width: 250px;
         height: 100px;
     }
 }
@@ -615,12 +619,6 @@ input[type="submit"]:hover {
     }
 }
 
-@media (max-width: 720px) {
-    .datos-de-contacto {
-        visibility: hidden;
-    }
-}
-
 
 
 @media (max-width: 300px) {
@@ -644,6 +642,7 @@ input[type="submit"]:hover {
 
 .lista-footer {
     margin: 0;
+    padding: 0px;
     display: flex;
     justify-content: center;
     align-content: center;
