@@ -539,7 +539,7 @@ form {
 
 }
 
-input, button {
+input {
     border: 2px solid white;
     border-radius: 25px;
     padding: 10px;
@@ -547,6 +547,11 @@ input, button {
     width: 100%;
 
 }
+
+input:focus {
+    box-shadow: rgba(240, 46, 170, 0.2) 0px 10px
+}
+
 
 
 textarea {
@@ -558,7 +563,7 @@ textarea {
     height: 120px;
 }
 
-button {
+input[type="submit"]{
     background-color: #f2cfda;
     width: 40%;
     font-family: 'Wix Madefor Display', sans-serif;
@@ -566,19 +571,21 @@ button {
 }
 
 
-button:hover {
+input[type="submit"]:hover {
     border: 2px solid #f2cfda;
     background-color: white;
 
 }
 
-button:active {
+input[type="submit"]:active {
     background-color: #c66aab;
     color: white;
 }
 
 
-
+a:focus {
+    background-color: #92ddea;
+}
 
 @media (max-width: 700px) {
     textarea {

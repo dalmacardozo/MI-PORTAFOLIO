@@ -28,8 +28,7 @@
     <!--INICIO-->
     <!--NAVEGACIÓN-->
     <header class="navegación">
-        <a name="hola"></a>
-        <nav class="posicion-destacada">
+        <nav>
             <ul class="lista-de-navegacion">
                 <li class="contenido-de-lista"><a href="#hola">¡HOLA!</a></li>
                 <li class="contenido-de-lista"><a href="#conocimientos">CONOCIMIENTOS</a></li>
@@ -41,6 +40,7 @@
 
     <!--SECCIÓN DE PRESENTACIÓN-->
     <section class="portada">
+        <a name="hola"></a>
         <div class="contenedor-descriptivo">
             <h3>¡Hola! Soy</h3>
             <h1 class="mi-nombre">Dalma Cardozo</h1>
@@ -57,7 +57,8 @@
     <section class="contenedor-conocimientos">
         <a name="conocimientos"></a>
         <h1 class="titulos-secciones">Mis conocimientos</h1>
-        <p class="subtitulos-secciones">Estos son algunos de los conocientos que adquirí en mi recorrido como estudiante de la carrera Front end Developer en Ada</p>
+        <p class="subtitulos-secciones">Estos son algunos de los conocientos que adquirí en mi recorrido como estudiante
+            de la carrera Front end Developer en Ada</p>
         <div class="contenedor-iconos-conocimientos">
             <article class="iconos-conocimientos">
                 <i class="fa-brands fa-html5"></i>
@@ -96,8 +97,11 @@
         <h1 class="encabezado-cita titulos-secciones">
             Un poco de mí...
         </h1>
-        <p class="texto-de-cita">Tengo 29 años, soy docente de Nivel Inicial y este año me sumergí en este nuevo mundo de la programación. Este es mi primer paso hacia nuevos caminos que quiero emprender y mi primer proyecto de tantos que deseo realizar, comenzándo desde cero...
-        Creo firmemente que para lograr nuevos resultados en diferentes aspectos de la vida es necesario realizar cambios, este es uno de ellos. Mientras tanto me propongo disfrutar del proceso.
+        <p class="texto-de-cita">Tengo 29 años, soy docente de Nivel Inicial y este año me sumergí en este nuevo mundo
+            de la programación. Este es mi primer paso hacia nuevos caminos que quiero emprender y mi primer proyecto de
+            tantos que deseo realizar, comenzándo desde cero...
+            Creo firmemente que para lograr nuevos resultados en diferentes aspectos de la vida es necesario realizar
+            cambios, este es uno de ellos. Mientras tanto me propongo disfrutar del proceso.
         </p>
     </section>
 
@@ -173,28 +177,25 @@
                 <h1 class="titulo-contacto">Escribeme</h1>
                 <form id="nombre-usuario">
                     <label for="nombre">Nombre*</label>
-                    <input type="text" id="nombre" placeholder="Ej: Aaron">
+                    <input type="text" id="nombre" placeholder="Ej: Aaron" required>
                 </form>
                 <form id="apellido-usuario"">
                     <label for=" apellido">Apellido*</label>
-                    <input type="text" id="apellido" placeholder="Ej: Morales">
+                    <input type="text" id="apellido" placeholder="Ej: Morales" required>
                 </form>
                 <form id="contacto-correo">
                     <label for="email">E-mail*</label>
-                    <input type="email" id="email" placeholder="Ej: moralesaaron@gmail.com">
+                    <input type="email" id="email" placeholder="Ej: moralesaaron@gmail.com" required>
                 </form>
                 </form>
                 <form id="descripcion-mensaje">
                     <label for="mensaje">Mensaje*</label>
                 </form>
                 <textarea name="descripcion-mensaje" id="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
-                <!--<form id="finalizar-enviar">
-                    <label for="enviar"></label>
-                    <input type="submit" id="enviar">
-                </form>-->
-                <button>
-                    Enviar
-                </button>
+                    <form id="finalizar-enviar">
+                        <label for="enviar"></label>
+                        <input type="submit" id="enviar">
+                    </form>
             </div>
         </section>
     </main>
